@@ -3,6 +3,7 @@ class Cart {
        this.products = []
        this.total = 0
    }
+   
    addProduct(product){
        this.products.push(product)
        this.total += product.price
